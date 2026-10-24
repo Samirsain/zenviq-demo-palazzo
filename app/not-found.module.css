@@ -1,0 +1,68 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.closed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 24px;
+    padding: 230px 40px 0px 40px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    flex: none;
+    min-height: 640px;
+    background: var(--ink);
+    z-index: 1;
+    overflow: clip;
+}
+
+.foggedWindow {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.text {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    z-index: 1;
+    pointer-events: none;
+    text-align: center;
+    white-space: pre;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    z-index: 1;
+}
+
+@media (min-width: 810px) and (max-width: 1199.98px) {
+    .closed {
+        padding: 200px 32px 0px 32px;
+    }
+}
+
+@media (max-width: 809.98px) {
+    .closed {
+        padding: 160px 40px 0px 40px;
+    }
+}

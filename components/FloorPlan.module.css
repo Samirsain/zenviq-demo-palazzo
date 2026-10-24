@@ -1,0 +1,1093 @@
+:where(.root) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 80px;
+    position: relative;
+    background: var(--ink);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+}
+
+.text2 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text3 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.layouts {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.oneTable14 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 9px 16px 9px 16px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    background: var(--bone);
+    border-radius: 999px;
+    border: 1px solid var(--bone);
+    cursor: pointer;
+}
+
+.text4 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: var(--ink);
+    text-align: start;
+    white-space: pre;
+}
+
+.twoTables86 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 9px 16px 9px 16px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 999px;
+    border: 1px solid var(--bone);
+    cursor: pointer;
+}
+
+.text5 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.standing24 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 9px 16px 9px 16px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 999px;
+    border: 1px solid var(--bone);
+    cursor: pointer;
+}
+
+.text6 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 24px;
+    position: relative;
+    width: 740px;
+    height: auto;
+    flex: none;
+    background: var(--ink-2);
+    border-radius: 18px;
+    border: 1px solid var(--bone);
+}
+
+.room {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 390px;
+    flex: none;
+    border-radius: 8px;
+    border: 1px solid var(--bone);
+    overflow: clip;
+}
+
+.wineWall {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 6px;
+    background: var(--brass);
+    border-radius: 4px;
+}
+
+.text7 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.text8 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.text9 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.door {
+    display: block;
+    position: relative;
+    width: 56px;
+    height: 3px;
+    background: var(--brass);
+}
+
+.table1 {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 64px;
+    border-radius: 999px;
+    border: 1px solid rgba(201, 165, 107, 0.6);
+    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.5);
+}
+
+.table2 {
+    display: block;
+    position: relative;
+    width: 1px;
+    height: 1px;
+    border-radius: 999px;
+    border: 1px solid rgba(201, 165, 107, 0.6);
+    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.seat {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat2 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat3 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat4 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat5 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat6 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat7 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat8 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat9 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat10 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat11 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat12 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat13 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat14 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+}
+
+.seat15 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.seat16 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.seat17 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.seat18 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.seat19 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.seat20 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.seat21 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.seat22 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.seat23 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.seat24 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: var(--bone);
+    border-radius: 999px;
+    opacity: 0;
+}
+
+.root[data-v="Two tables"] .oneTable14 {
+    background: rgba(0, 0, 0, 0);
+}
+
+.root[data-v="Two tables"] .text4 {
+    color: var(--bone);
+}
+
+.root[data-v="Two tables"] .twoTables86 {
+    background: var(--bone);
+}
+
+.root[data-v="Two tables"] .text5 {
+    color: var(--ink);
+}
+
+.root[data-v="Two tables"] .table1 {
+    width: 200px;
+    height: 60px;
+}
+
+.root[data-v="Two tables"] .table2 {
+    width: 150px;
+    height: 60px;
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .oneTable14 {
+    background: rgba(0, 0, 0, 0);
+}
+
+.root[data-v="Standing"] .text4 {
+    color: var(--bone);
+}
+
+.root[data-v="Standing"] .standing24 {
+    background: var(--bone);
+}
+
+.root[data-v="Standing"] .text6 {
+    color: var(--ink);
+}
+
+.root[data-v="Standing"] .table1 {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.root[data-v="Standing"] .seat {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat2 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat3 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat4 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat5 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat6 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat7 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat8 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat9 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat10 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat11 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat12 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat13 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat14 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+}
+
+.root[data-v="Standing"] .seat15 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .seat16 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .seat17 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .seat18 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .seat19 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .seat20 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .seat21 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .seat22 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .seat23 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+.root[data-v="Standing"] .seat24 {
+    width: 16px;
+    height: 16px;
+    background: var(--brass);
+    opacity: 1;
+}
+
+
+/* Room has no stack layout in Framer: every child is pinned by its edges */
+.wineWall {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 14px;
+    width: auto;
+}
+
+.text7 {
+    position: absolute;
+    left: 22px;
+    top: 26px;
+}
+
+.text8 {
+    position: absolute;
+    left: 18px;
+    bottom: 12px;
+}
+
+.text9 {
+    position: absolute;
+    right: 18px;
+    bottom: 12px;
+}
+
+.door {
+    position: absolute;
+    left: 18px;
+    bottom: 0px;
+}
+
+.table1 {
+    position: absolute;
+    left: 180px;
+    top: 163px;
+}
+
+.table2 {
+    position: absolute;
+    left: 700px;
+    top: 163px;
+}
+
+.seat {
+    position: absolute;
+    left: 190px;
+    top: 128px;
+}
+
+.seat2 {
+    position: absolute;
+    left: 190px;
+    top: 240px;
+}
+
+.seat3 {
+    position: absolute;
+    left: 242px;
+    top: 128px;
+}
+
+.seat4 {
+    position: absolute;
+    left: 242px;
+    top: 240px;
+}
+
+.seat5 {
+    position: absolute;
+    left: 294px;
+    top: 128px;
+}
+
+.seat6 {
+    position: absolute;
+    left: 294px;
+    top: 240px;
+}
+
+.seat7 {
+    position: absolute;
+    left: 346px;
+    top: 128px;
+}
+
+.seat8 {
+    position: absolute;
+    left: 346px;
+    top: 240px;
+}
+
+.seat9 {
+    position: absolute;
+    left: 398px;
+    top: 128px;
+}
+
+.seat10 {
+    position: absolute;
+    left: 398px;
+    top: 240px;
+}
+
+.seat11 {
+    position: absolute;
+    left: 450px;
+    top: 128px;
+}
+
+.seat12 {
+    position: absolute;
+    left: 450px;
+    top: 240px;
+}
+
+.seat13 {
+    position: absolute;
+    left: 144px;
+    top: 184px;
+}
+
+.seat14 {
+    position: absolute;
+    left: 494px;
+    top: 184px;
+}
+
+.seat15 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.seat16 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.seat17 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.seat18 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.seat19 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.seat20 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.seat21 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.seat22 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.seat23 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.seat24 {
+    position: absolute;
+    left: 319px;
+    top: 184px;
+}
+
+.root[data-v="Two tables"] .table1 {
+    left: 110px;
+    top: 165px;
+}
+
+.root[data-v="Two tables"] .table2 {
+    left: 405px;
+    top: 165px;
+}
+
+.root[data-v="Two tables"] .seat {
+    left: 130px;
+    top: 131px;
+}
+
+.root[data-v="Two tables"] .seat2 {
+    left: 130px;
+    top: 237px;
+}
+
+.root[data-v="Two tables"] .seat3 {
+    left: 180px;
+    top: 131px;
+}
+
+.root[data-v="Two tables"] .seat4 {
+    left: 180px;
+    top: 237px;
+}
+
+.root[data-v="Two tables"] .seat5 {
+    left: 230px;
+    top: 131px;
+}
+
+.root[data-v="Two tables"] .seat6 {
+    left: 230px;
+    top: 237px;
+}
+
+.root[data-v="Two tables"] .seat7 {
+    left: 76px;
+    top: 184px;
+}
+
+.root[data-v="Two tables"] .seat8 {
+    left: 322px;
+    top: 184px;
+}
+
+.root[data-v="Two tables"] .seat9 {
+    left: 437px;
+    top: 131px;
+}
+
+.root[data-v="Two tables"] .seat10 {
+    left: 437px;
+    top: 237px;
+}
+
+.root[data-v="Two tables"] .seat11 {
+    left: 487px;
+    top: 131px;
+}
+
+.root[data-v="Two tables"] .seat12 {
+    left: 487px;
+    top: 237px;
+}
+
+.root[data-v="Two tables"] .seat13 {
+    left: 371px;
+    top: 184px;
+}
+
+.root[data-v="Two tables"] .seat14 {
+    left: 567px;
+    top: 184px;
+}
+
+.root[data-v="Standing"] .table1 {
+    left: 330px;
+    top: 195px;
+}
+
+.root[data-v="Standing"] .table2 {
+    left: 330px;
+    top: 195px;
+}
+
+.root[data-v="Standing"] .seat {
+    left: 82px;
+    top: 63px;
+}
+
+.root[data-v="Standing"] .seat2 {
+    left: 187px;
+    top: 74px;
+}
+
+.root[data-v="Standing"] .seat3 {
+    left: 275px;
+    top: 70px;
+}
+
+.root[data-v="Standing"] .seat4 {
+    left: 363px;
+    top: 66px;
+}
+
+.root[data-v="Standing"] .seat5 {
+    left: 451px;
+    top: 77px;
+}
+
+.root[data-v="Standing"] .seat6 {
+    left: 556px;
+    top: 73px;
+}
+
+.root[data-v="Standing"] .seat7 {
+    left: 129px;
+    top: 140px;
+}
+
+.root[data-v="Standing"] .seat8 {
+    left: 217px;
+    top: 136px;
+}
+
+.root[data-v="Standing"] .seat9 {
+    left: 322px;
+    top: 147px;
+}
+
+.root[data-v="Standing"] .seat10 {
+    left: 410px;
+    top: 143px;
+}
+
+.root[data-v="Standing"] .seat11 {
+    left: 498px;
+    top: 139px;
+}
+
+.root[data-v="Standing"] .seat12 {
+    left: 586px;
+    top: 135px;
+}
+
+.root[data-v="Standing"] .seat13 {
+    left: 96px;
+    top: 217px;
+}
+
+.root[data-v="Standing"] .seat14 {
+    left: 184px;
+    top: 213px;
+}
+
+.root[data-v="Standing"] .seat15 {
+    left: 272px;
+    top: 209px;
+}
+
+.root[data-v="Standing"] .seat16 {
+    left: 360px;
+    top: 220px;
+}
+
+.root[data-v="Standing"] .seat17 {
+    left: 465px;
+    top: 216px;
+}
+
+.root[data-v="Standing"] .seat18 {
+    left: 553px;
+    top: 212px;
+}
+
+.root[data-v="Standing"] .seat19 {
+    left: 126px;
+    top: 279px;
+}
+
+.root[data-v="Standing"] .seat20 {
+    left: 214px;
+    top: 290px;
+}
+
+.root[data-v="Standing"] .seat21 {
+    left: 319px;
+    top: 286px;
+}
+
+.root[data-v="Standing"] .seat22 {
+    left: 407px;
+    top: 282px;
+}
+
+.root[data-v="Standing"] .seat23 {
+    left: 495px;
+    top: 293px;
+}
+
+.root[data-v="Standing"] .seat24 {
+    left: 583px;
+    top: 289px;
+}
+
+.root, .root * {
+    transition: background 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, color 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, scale 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, rotate 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, height 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, width 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, left 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s, top 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s;
+}

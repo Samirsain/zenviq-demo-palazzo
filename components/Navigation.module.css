@@ -1,0 +1,628 @@
+:where(.root) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(10, 10, 13, 0.5) 0%, rgba(10, 10, 13, 0) 100%);
+    overflow: clip;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 28px;
+    padding: 18px 40px 18px 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-instrument);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.spacer {
+    display: block;
+    position: relative;
+    width: 1px;
+    height: 1px;
+    flex: 1 0 0px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 26px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.text {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0em;
+    line-height: 1.3em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.text2 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0em;
+    line-height: 1.3em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.text3 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0em;
+    line-height: 1.3em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.text4 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0em;
+    line-height: 1.3em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.menuButton {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    flex: none;
+    border-radius: 999px;
+    border: 1px solid var(--bone);
+    cursor: pointer;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}
+
+.drawer {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 12px 20px 40px 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 14px 0px 14px 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    border-style: solid;
+    border-color: var(--line);
+    border-width: 0px 0px 1px 0px;
+}
+
+.text5 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-instrument);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: -0.01em;
+    line-height: 1.05em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.thumb {
+    display: block;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    flex: none;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+}
+
+.theRoom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 14px 0px 14px 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    border-style: solid;
+    border-color: var(--line);
+    border-width: 0px 0px 1px 0px;
+}
+
+.text6 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-instrument);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: -0.01em;
+    line-height: 1.05em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.privateDining {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 14px 0px 14px 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    border-style: solid;
+    border-color: var(--line);
+    border-width: 0px 0px 1px 0px;
+}
+
+.text7 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-instrument);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: -0.01em;
+    line-height: 1.05em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.giftCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 14px 0px 14px 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    border-style: solid;
+    border-color: var(--line);
+    border-width: 0px 0px 1px 0px;
+}
+
+.text8 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-instrument);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: -0.01em;
+    line-height: 1.05em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.reservations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 14px 0px 14px 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    border-style: solid;
+    border-color: var(--line);
+    border-width: 0px 0px 1px 0px;
+}
+
+.text9 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-instrument);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: -0.01em;
+    line-height: 1.05em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.gap {
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 32px;
+    flex: none;
+}
+
+.button2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.gap2 {
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 16px;
+    flex: none;
+}
+
+.text10 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.3em;
+    color: var(--dust);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.gap3 {
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 24px;
+    flex: none;
+}
+
+.plates {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 6px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.plate {
+    display: block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    flex: none;
+    border-radius: 999px;
+    border: 2px solid var(--ink);
+    box-shadow: 0px 8px 18px 0px rgba(0, 0, 0, 0.5);
+}
+
+.plate2 {
+    display: block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    flex: none;
+    border-radius: 999px;
+    border: 2px solid var(--ink);
+    box-shadow: 0px 8px 18px 0px rgba(0, 0, 0, 0.5);
+}
+
+.plate3 {
+    display: block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    flex: none;
+    border-radius: 999px;
+    border: 2px solid var(--ink);
+    box-shadow: 0px 8px 18px 0px rgba(0, 0, 0, 0.5);
+}
+
+.root[data-v="Phone"] {
+    height: 76px;
+}
+
+.root[data-v="Phone"] .bar {
+    gap: 12px;
+    padding: 16px 20px 16px 20px;
+}
+
+.root[data-v="Phone"] .logo {
+    font-size: 26px;
+}
+
+.root[data-v="Phone"] .links {
+    display: none;
+}
+
+.root[data-v="Phone"] .menuButton {
+    display: flex;
+}
+
+.root[data-v="Phone"] .drawer {
+    display: flex;
+}
+
+:where(.root[data-v="Phone Open"]) {
+    min-height: 100vh;
+    background: var(--ink);
+}
+
+.root[data-v="Phone Open"] .bar {
+    gap: 12px;
+    padding: 16px 20px 16px 20px;
+}
+
+.root[data-v="Phone Open"] .logo {
+    font-size: 26px;
+}
+
+.root[data-v="Phone Open"] .links {
+    display: none;
+}
+
+.root[data-v="Phone Open"] .button {
+    display: none;
+}
+
+.root[data-v="Phone Open"] .menuButton {
+    display: flex;
+}
+
+.root[data-v="Phone Open"] .drawer {
+    display: flex;
+}
+
+.root[data-v="Tablet"] .bar {
+    padding: 18px 32px 18px 32px;
+}
+
+.root, .root * {
+    transition: background 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0s, color 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0s, border-color 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0s, opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0s, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0s, scale 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0s, rotate 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0s, height 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0s, width 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0s;
+}
+
+@media (min-width: 810px) and (max-width: 1199.98px) {
+    .root[data-v-tablet="Phone"] .bar {
+        gap: 12px;
+        padding: 16px 20px 16px 20px;
+    }
+
+    .root[data-v-tablet="Phone"] .logo {
+        font-size: 26px;
+    }
+
+    .root[data-v-tablet="Phone"] .links {
+        display: none;
+    }
+
+    .root[data-v-tablet="Phone"] .menuButton {
+        display: flex;
+    }
+
+    .root[data-v-tablet="Phone"] .drawer {
+        display: flex;
+    }
+
+    :where(.root[data-v-tablet="Phone Open"]) {
+        min-height: 100vh;
+        background: var(--ink);
+    }
+
+    .root[data-v-tablet="Phone Open"] .bar {
+        gap: 12px;
+        padding: 16px 20px 16px 20px;
+    }
+
+    .root[data-v-tablet="Phone Open"] .logo {
+        font-size: 26px;
+    }
+
+    .root[data-v-tablet="Phone Open"] .links {
+        display: none;
+    }
+
+    .root[data-v-tablet="Phone Open"] .button {
+        display: none;
+    }
+
+    .root[data-v-tablet="Phone Open"] .menuButton {
+        display: flex;
+    }
+
+    .root[data-v-tablet="Phone Open"] .drawer {
+        display: flex;
+    }
+
+    .root[data-v-tablet="Tablet"] .bar {
+        padding: 18px 32px 18px 32px;
+    }
+}
+
+@media (max-width: 809.98px) {
+    .root[data-v-phone="Phone"] {
+        height: 76px;
+    }
+
+    .root[data-v-phone="Phone"] .bar {
+        gap: 12px;
+        padding: 16px 20px 16px 20px;
+    }
+
+    .root[data-v-phone="Phone"] .logo {
+        font-size: 26px;
+    }
+
+    .root[data-v-phone="Phone"] .links {
+        display: none;
+    }
+
+    .root[data-v-phone="Phone"] .menuButton {
+        display: flex;
+    }
+
+    .root[data-v-phone="Phone"] .drawer {
+        display: flex;
+    }
+
+    :where(.root[data-v-phone="Phone Open"]) {
+        min-height: 100vh;
+        background: var(--ink);
+    }
+
+    .root[data-v-phone="Phone Open"] .bar {
+        gap: 12px;
+        padding: 16px 20px 16px 20px;
+    }
+
+    .root[data-v-phone="Phone Open"] .logo {
+        font-size: 26px;
+    }
+
+    .root[data-v-phone="Phone Open"] .links {
+        display: none;
+    }
+
+    .root[data-v-phone="Phone Open"] .button {
+        display: none;
+    }
+
+    .root[data-v-phone="Phone Open"] .menuButton {
+        display: flex;
+    }
+
+    .root[data-v-phone="Phone Open"] .drawer {
+        display: flex;
+    }
+
+    .root[data-v-phone="Tablet"] .bar {
+        padding: 18px 32px 18px 32px;
+    }
+}

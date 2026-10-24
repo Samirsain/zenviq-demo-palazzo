@@ -1,0 +1,48 @@
+:where(.root) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 9px 16px 9px 16px;
+    position: relative;
+    border-radius: 999px;
+    border: 1px solid var(--bone);
+    overflow: clip;
+    cursor: pointer;
+}
+
+.label {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    user-select: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+:where(.root[data-v="Filled"]) {
+    background: var(--bone);
+}
+
+.root[data-v="Filled"] .label {
+    color: var(--ink);
+}
+
+:where(.root[data-v="Outline"]:hover) {
+    background: rgba(238, 231, 219, 0.1);
+}
+
+.root, .root * {
+    transition: background 0.5s cubic-bezier(0.16,1,0.3,1) 0s, color 0.5s cubic-bezier(0.16,1,0.3,1) 0s, border-color 0.5s cubic-bezier(0.16,1,0.3,1) 0s, opacity 0.5s cubic-bezier(0.16,1,0.3,1) 0s, transform 0.5s cubic-bezier(0.16,1,0.3,1) 0s, scale 0.5s cubic-bezier(0.16,1,0.3,1) 0s, rotate 0.5s cubic-bezier(0.16,1,0.3,1) 0s, height 0.5s cubic-bezier(0.16,1,0.3,1) 0s, width 0.5s cubic-bezier(0.16,1,0.3,1) 0s;
+}

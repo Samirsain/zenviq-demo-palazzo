@@ -1,0 +1,67 @@
+:where(.root) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 12px;
+    padding: 22px 0px 22px 0px;
+    position: relative;
+    background: var(--ink);
+    border-style: solid;
+    border-color: var(--bone);
+    border-width: 0px 0px 1px 0px;
+    overflow: clip;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.text {
+    display: block;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}
+
+.text2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    max-width: 560px;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.root[data-v="Closed"] .text2 {
+    display: none;
+    opacity: 0;
+}
+
+.root, .root * {
+    transition: background 0.7s cubic-bezier(0.16,1,0.3,1) 0s, color 0.7s cubic-bezier(0.16,1,0.3,1) 0s, border-color 0.7s cubic-bezier(0.16,1,0.3,1) 0s, opacity 0.7s cubic-bezier(0.16,1,0.3,1) 0s, transform 0.7s cubic-bezier(0.16,1,0.3,1) 0s, scale 0.7s cubic-bezier(0.16,1,0.3,1) 0s, rotate 0.7s cubic-bezier(0.16,1,0.3,1) 0s, height 0.7s cubic-bezier(0.16,1,0.3,1) 0s, width 0.7s cubic-bezier(0.16,1,0.3,1) 0s;
+}

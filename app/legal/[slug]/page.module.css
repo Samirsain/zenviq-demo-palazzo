@@ -1,0 +1,234 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 180px 40px 140px 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    background: var(--ink);
+    z-index: 1;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 80px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    max-width: 1280px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 12px;
+    position: sticky;
+    top: 120px;
+    width: 300px;
+    height: auto;
+    flex: none;
+}
+
+.text {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.gap {
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 16px;
+    flex: none;
+}
+
+.documents {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.document {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 11px 14px 11px 14px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    border-radius: 10px;
+    border: 1px solid var(--bone);
+}
+
+.document {
+    transition: all 0.4s cubic-bezier(0.16,1,0.3,1) 0s;
+}
+
+.document:hover {
+    scale: 1.1;
+    background-color: var(--ink-2);
+}
+
+.text2 {
+    display: block;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 14px;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+    max-width: 800px;
+}
+
+.text3 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text4 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.gap2 {
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 16px;
+    flex: none;
+}
+
+.text5 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    white-space: pre-wrap;
+}
+
+@media (min-width: 810px) and (max-width: 1199.98px) {
+    .content {
+        padding: 150px 32px 112px 32px;
+    }
+
+    .inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        top: initial;
+    }
+
+    .article {
+        width: 100%;
+        flex: none;
+    }
+}
+
+@media (max-width: 809.98px) {
+    .content {
+        padding: 120px 20px 88px 20px;
+    }
+
+    .inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        top: initial;
+    }
+
+    .documents {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 8px;
+    }
+
+    .document {
+        width: auto;
+    }
+
+    .text2 {
+        width: auto;
+        flex: none;
+        white-space: pre;
+    }
+
+    .article {
+        width: 100%;
+        flex: none;
+    }
+}

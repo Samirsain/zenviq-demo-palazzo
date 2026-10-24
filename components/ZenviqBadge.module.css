@@ -1,0 +1,44 @@
+.badge {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: rgba(17, 18, 20, 0.78);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: var(--dust);
+    font-family: var(--font-geist), sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    white-space: nowrap;
+    transition: border-color 0.3s ease;
+}
+
+.badge:hover,
+.badge:focus-visible {
+    border-color: #26bcbc;
+}
+
+.badge img {
+    display: block;
+    height: 14px;
+    width: auto;
+}
+
+.cta {
+    padding-left: 8px;
+    border-left: 1px solid var(--line);
+    color: #26bcbc;
+}
+
+@media (max-width: 809px) {
+    .cta {
+        display: none;
+    }
+}

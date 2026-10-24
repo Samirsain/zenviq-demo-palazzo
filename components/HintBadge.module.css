@@ -1,0 +1,41 @@
+:where(.root) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 9px 14px 9px 10px;
+    position: relative;
+    background: rgba(17, 18, 20, 0.55);
+    border-radius: 999px;
+    border: 1px solid var(--bone);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    overflow: clip;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}
+
+.label {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}

@@ -1,0 +1,86 @@
+:where(.root) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 14px 22px 14px 22px;
+    position: relative;
+    background: var(--bone);
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.text {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: var(--ink);
+    text-align: start;
+    white-space: pre;
+}
+
+.textAlt1 {
+    display: none;
+}
+
+.textAlt2 {
+    display: none;
+}
+
+.root[data-v="Success"] .textAlt0 {
+    display: none;
+}
+
+.root[data-v="Success"] .textAlt1 {
+    display: block;
+}
+
+.root[data-v="Error"] .textAlt0 {
+    display: none;
+}
+
+.root[data-v="Error"] .textAlt2 {
+    display: block;
+}
+
+:where(.root[data-v="Pending"]) {
+    opacity: 0.6;
+}
+
+:where(.root[data-v="Success"]) {
+    background: var(--brass);
+}
+
+.root[data-v="Success"] .text {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+:where(.root[data-v="Error"]) {
+    background: #b5543f;
+}
+
+.root[data-v="Error"] .text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--bone);
+}
+
+:where(.root[data-v="Default"]:hover) {
+    background: var(--brass);
+}
+
+.root, .root * {
+    transition: background 0.5s cubic-bezier(0.16,1,0.3,1) 0s, color 0.5s cubic-bezier(0.16,1,0.3,1) 0s, border-color 0.5s cubic-bezier(0.16,1,0.3,1) 0s, opacity 0.5s cubic-bezier(0.16,1,0.3,1) 0s, transform 0.5s cubic-bezier(0.16,1,0.3,1) 0s, scale 0.5s cubic-bezier(0.16,1,0.3,1) 0s, rotate 0.5s cubic-bezier(0.16,1,0.3,1) 0s, height 0.5s cubic-bezier(0.16,1,0.3,1) 0s, width 0.5s cubic-bezier(0.16,1,0.3,1) 0s;
+}

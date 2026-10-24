@@ -1,0 +1,1229 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 180px 40px 72px 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    background: var(--ink);
+    z-index: 1;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 80px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    max-width: 1280px;
+}
+
+.text {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 26px;
+    padding: 0px 0px 12px 0px;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+}
+
+.text2 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.pill {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.pill2 {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.pill3 {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.pill4 {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.courseRail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 20px 40px 90px 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    background: var(--ink);
+    z-index: 1;
+}
+
+.inner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 36px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    max-width: 1280px;
+}
+
+.rail {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 28px;
+    padding: 0px 0px 8px 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.courseCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 16px;
+    position: relative;
+    width: 300px;
+    height: auto;
+    flex: none;
+}
+
+.spinPlate {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    flex: none;
+}
+
+.gap {
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 4px;
+    flex: none;
+}
+
+.text3 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-instrument);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: var(--dust);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text4 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text5 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.allergens {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: auto;
+    height: 24px;
+    flex: none;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    flex: none;
+}
+
+.icon2 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    flex: none;
+}
+
+.icon3 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    flex: none;
+}
+
+.icon4 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    flex: none;
+}
+
+.icon5 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    flex: none;
+}
+
+.icon6 {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    flex: none;
+}
+
+.pairingText {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.hintBadge {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.priceAndPairings {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 0px 40px 140px 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    background: var(--ink);
+    z-index: 1;
+}
+
+.inner3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    max-width: 1280px;
+}
+
+.priceCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 18px;
+    padding: 32px;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+    background: var(--bone);
+    border-radius: 18px;
+    border: 1px solid var(--bone);
+}
+
+.text6 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--ink);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text7 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--ink);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text8 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--ink);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.text9 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--ink);
+    text-align: start;
+    white-space: pre;
+}
+
+.priceRoll {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.priceCard2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 18px;
+    padding: 32px;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+    background: var(--ink-2);
+    border-radius: 18px;
+    border: 1px solid var(--bone);
+}
+
+.text10 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text11 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text12 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.pairingSwitch {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.priceCard3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 18px;
+    padding: 32px;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+    background: var(--ink-2);
+    border-radius: 18px;
+    border: 1px solid var(--bone);
+}
+
+.text13 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text14 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text15 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.pairingSwitch2 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.allergensAndDiets {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 50px 40px 50px 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    background: var(--ink);
+    border-style: solid;
+    border-color: var(--line);
+    border-width: 1px 0px 1px 0px;
+    z-index: 1;
+}
+
+.inner4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    max-width: 1280px;
+}
+
+.text16 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 420px;
+    height: auto;
+    flex: none;
+}
+
+.text17 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text18 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 12px 26px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.gluten {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.icon7 {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}
+
+.text19 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.dairy {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.icon8 {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}
+
+.text20 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.nuts {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.icon9 {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}
+
+.text21 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.shellfish {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.icon10 {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}
+
+.text22 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.fish {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.icon11 {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}
+
+.text23 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.egg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.icon12 {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex: none;
+}
+
+.text24 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.wineByTheGlass {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 140px 40px 140px 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    background: var(--ink);
+    z-index: 1;
+}
+
+.inner5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 80px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    max-width: 1280px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 30px;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+}
+
+.text25 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.wineList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.wine {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 24px;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    border-style: solid;
+    border-color: var(--bone);
+    border-width: 0px 0px 1px 0px;
+}
+
+.text26 {
+    display: block;
+    position: relative;
+    width: 110px;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text27 {
+    display: block;
+    position: relative;
+    width: 1px;
+    height: auto;
+    flex: 1 0 0px;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text28 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.3em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre;
+}
+
+.sommelier {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 18px;
+    position: relative;
+    width: 420px;
+    height: auto;
+    flex: none;
+}
+
+.pour {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 540px;
+    flex: none;
+    border-radius: 6px;
+}
+
+.text29 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.sommelierSignature {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 12px;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.sommelierAvatar {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    flex: none;
+    border-radius: 999px;
+    overflow: clip;
+}
+
+.text30 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    text-align: start;
+    white-space: pre;
+}
+
+.button2 {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+@media (min-width: 810px) and (max-width: 1199.98px) {
+    .title {
+        padding: 150px 32px 56px 32px;
+    }
+
+    .inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    .intro {
+        width: 100%;
+        flex: none;
+        padding: initial;
+    }
+
+    .courseRail {
+        padding: 10px 32px 70px 32px;
+    }
+
+    .courseCard {
+        width: 260px;
+    }
+
+    .spinPlate {
+        width: 260px;
+        height: 260px;
+    }
+
+    .priceAndPairings {
+        padding: 0px 32px 112px 32px;
+    }
+
+    .inner3 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .priceCard {
+        width: 100%;
+        flex: none;
+    }
+
+    .priceCard2 {
+        width: 100%;
+        flex: none;
+    }
+
+    .priceCard3 {
+        width: 100%;
+        flex: none;
+    }
+
+    .allergensAndDiets {
+        padding: 50px 32px 50px 32px;
+    }
+
+    .inner4 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .text16 {
+        width: 100%;
+    }
+
+    .legend {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 12px 20px;
+        width: 100%;
+    }
+
+    .wineByTheGlass {
+        padding: 112px 32px 112px 32px;
+    }
+
+    .inner5 {
+        flex-direction: column;
+        gap: 56px;
+    }
+
+    .list {
+        width: 100%;
+        flex: none;
+    }
+
+    .sommelier {
+        width: 100%;
+    }
+
+    .pour {
+        height: 480px;
+    }
+}
+
+@media (max-width: 809.98px) {
+    .title {
+        padding: 120px 20px 44px 20px;
+    }
+
+    .inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .intro {
+        width: 100%;
+        flex: none;
+        padding: initial;
+    }
+
+    .courseRail {
+        padding: 10px 20px 60px 20px;
+    }
+
+    .courseCard {
+        width: 240px;
+    }
+
+    .spinPlate {
+        width: 240px;
+        height: 240px;
+    }
+
+    .priceAndPairings {
+        padding: 0px 20px 88px 20px;
+    }
+
+    .inner3 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .priceCard {
+        padding: 26px;
+        width: 100%;
+        flex: none;
+    }
+
+    .priceCard2 {
+        padding: 26px;
+        width: 100%;
+        flex: none;
+    }
+
+    .priceCard3 {
+        padding: 26px;
+        width: 100%;
+        flex: none;
+    }
+
+    .allergensAndDiets {
+        padding: 40px 20px 40px 20px;
+    }
+
+    .inner4 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .text16 {
+        width: 100%;
+    }
+
+    .legend {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 12px 20px;
+        width: 100%;
+    }
+
+    .wineByTheGlass {
+        padding: 88px 20px 88px 20px;
+    }
+
+    .inner5 {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .list {
+        width: 100%;
+        flex: none;
+    }
+
+    .wine {
+        gap: 14px;
+        padding: 16px 0px 16px 0px;
+    }
+
+    .text26 {
+        width: 72px;
+    }
+
+    .sommelier {
+        width: 100%;
+    }
+
+    .pour {
+        height: 420px;
+    }
+}

@@ -1,0 +1,565 @@
+:where(.root) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+    padding: 60px 40px 40px 40px;
+    position: relative;
+    background: var(--ink);
+    overflow: clip;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 40px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    max-width: 1280px;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    grid-auto-rows: min-content;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0px 0px 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    border-style: solid;
+    border-color: var(--bone);
+    border-width: 1px 0px 0px 0px;
+}
+
+.visit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--dust);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text2 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text3 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text4 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.text5 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--dust);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text6 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text7 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text8 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.text9 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--dust);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text10 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text11 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text12 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text13 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text14 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.text15 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--dust);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text16 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.text17 {
+    display: block;
+    position: relative;
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--bone);
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.wordmark {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+    font-family: var(--font-instrument);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    line-height: 0.95;
+    color: var(--bone);
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.bottomBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: none;
+}
+
+.text18 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--dust);
+    text-align: start;
+    white-space: pre;
+}
+
+.text19 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    color: var(--dust);
+    text-align: start;
+    white-space: pre;
+}
+
+:where(.root[data-v="Phone"]) {
+    padding: 40px 20px 28px 20px;
+}
+
+.root[data-v="Phone"] .inner {
+    gap: 28px;
+}
+
+.root[data-v="Phone"] .columns {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    gap: 28px 20px;
+    padding: 32px 0px 0px 0px;
+}
+
+.root[data-v="Phone"] .visit {
+    grid-column: span all;
+}
+
+.root[data-v="Phone"] .bottomBar {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+:where(.root[data-v="Tablet"]) {
+    padding: 56px 32px 36px 32px;
+}
+
+.root[data-v="Tablet"] .columns {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    gap: 32px 40px;
+}
+
+@media (min-width: 810px) and (max-width: 1199.98px) {
+    :where(.root[data-v-tablet="Phone"]) {
+        padding: 40px 20px 28px 20px;
+    }
+
+    .root[data-v-tablet="Phone"] .inner {
+        gap: 28px;
+    }
+
+    .root[data-v-tablet="Phone"] .columns {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+        gap: 28px 20px;
+        padding: 32px 0px 0px 0px;
+    }
+
+    .root[data-v-tablet="Phone"] .visit {
+        grid-column: span all;
+    }
+
+    .root[data-v-tablet="Phone"] .bottomBar {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    :where(.root[data-v-tablet="Tablet"]) {
+        padding: 56px 32px 36px 32px;
+    }
+
+    .root[data-v-tablet="Tablet"] .columns {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+        gap: 32px 40px;
+    }
+}
+
+@media (max-width: 809.98px) {
+    :where(.root[data-v-phone="Phone"]) {
+        padding: 40px 20px 28px 20px;
+    }
+
+    .root[data-v-phone="Phone"] .inner {
+        gap: 28px;
+    }
+
+    .root[data-v-phone="Phone"] .columns {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+        gap: 28px 20px;
+        padding: 32px 0px 0px 0px;
+    }
+
+    .root[data-v-phone="Phone"] .visit {
+        grid-column: span all;
+    }
+
+    .root[data-v-phone="Phone"] .bottomBar {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    :where(.root[data-v-phone="Tablet"]) {
+        padding: 56px 32px 36px 32px;
+    }
+
+    .root[data-v-phone="Tablet"] .columns {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+        gap: 32px 40px;
+    }
+}

@@ -1,0 +1,92 @@
+:where(.root) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 14px 22px 14px 22px;
+    position: relative;
+    background: var(--bone);
+    border-radius: 999px;
+    overflow: clip;
+    cursor: pointer;
+}
+
+.label {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex: none;
+    user-select: none;
+    font-family: var(--font-geist);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: var(--ink);
+    text-align: start;
+    white-space: pre;
+}
+
+:where(.root[data-v="Outline"]) {
+    border: 1px solid var(--bone);
+    background: none;
+}
+
+.root[data-v="Outline"] .label {
+    color: var(--bone);
+}
+
+:where(.root[data-v="Glass"]) {
+    background: rgba(17, 18, 20, 0.55);
+    border: 1px solid var(--bone);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+.root[data-v="Glass"] .label {
+    color: var(--bone);
+}
+
+:where(.root[data-v="Ink"]) {
+    background: var(--ink);
+}
+
+.root[data-v="Ink"] .label {
+    color: var(--bone);
+}
+
+:where(.root[data-v="Bone"]:hover) {
+    background: var(--brass);
+}
+
+:where(.root[data-v="Outline"]:hover) {
+    background: var(--bone);
+}
+
+.root[data-v="Outline"]:hover .label {
+    color: var(--ink);
+}
+
+:where(.root[data-v="Glass"]:hover) {
+    background: var(--bone);
+}
+
+.root[data-v="Glass"]:hover .label {
+    color: var(--ink);
+}
+
+:where(.root[data-v="Ink"]:hover) {
+    background: var(--brass);
+}
+
+.root[data-v="Ink"]:hover .label {
+    color: var(--ink);
+}
+
+.root, .root * {
+    transition: background 0.5s cubic-bezier(0.16,1,0.3,1) 0s, color 0.5s cubic-bezier(0.16,1,0.3,1) 0s, border-color 0.5s cubic-bezier(0.16,1,0.3,1) 0s, opacity 0.5s cubic-bezier(0.16,1,0.3,1) 0s, transform 0.5s cubic-bezier(0.16,1,0.3,1) 0s, scale 0.5s cubic-bezier(0.16,1,0.3,1) 0s, rotate 0.5s cubic-bezier(0.16,1,0.3,1) 0s, height 0.5s cubic-bezier(0.16,1,0.3,1) 0s, width 0.5s cubic-bezier(0.16,1,0.3,1) 0s;
+}
